@@ -1,0 +1,37 @@
+:root {
+    --darkGray: #2d3748;
+    --gray: #4a5568;
+    --grayLight: #f7fafc;
+    --primary: #6b46c1;
+  }
+.hero-container {
+    display: flex;
+    height: 470px;
+    padding: 0 10%;
+}
+
+.hero-container > div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-container h1 {
+    font-size: 60px;
+    width: 360px;
+    margin: 20px 0;
+    font-weight: bolder;
+  }
+
+  .hero-container p {
+    font-size: 30px;
+    color: var(--gray);
+  }
+
+  .hero-container > img {
+    width: 50%;
+    height: 323px;
+    align-self: center;
+  }
