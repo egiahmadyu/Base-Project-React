@@ -1,4 +1,4 @@
-import "./style.css"
+import "../css-landing.css"
 
 
 const HeroContainer = () => {
